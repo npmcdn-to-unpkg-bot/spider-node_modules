@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="ink">
+<head lang="en">
+  <base href="/"/>
+  <meta charset="UTF-8">
+  <link rel="dns-prefetch" href="//img.inkey.com/">
+  <link rel="dns-prefetch" href="//acti.inkey.com/">
+  <link rel="dns-prefetch" href="//mzapi.inkey.com/">
+  <link rel="dns-prefetch" href="//mzmp.inkey.com/">
+  <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="format-detection" content="telephone=no, email=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <title ng-bind="appName"></title>
+
+  <!--
+    微信6.2版本直接跳转秒赚下载页面
+  -->
+  <script>
+    var wechatInfo = navigator.userAgent.match(/MicroMessenger\/([\d\.]+)/i);
+    if (wechatInfo && wechatInfo[1] < '6.2') {
+      window.location.href = 'http://down.inkey.com';
+    }
+  </script><!--ignore-->
+
+</head>
+<body ng-style="bodyStyle">
+
+<div ui-view autoscroll="true"></div>
+
+<ik-dialog></ik-dialog>
+<ik-tips-center></ik-tips-center>
+
+<script src="//res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+<script src="/lib/mod/mod.js"></script>
+<script type="text/javascript">
+  require('app');
+  document.addEventListener('touchstart', function () {
+  }, false);
+  // 解决300ms click延迟
+  FastClick.attach(document.body);
+</script>
+</body>
+</html>

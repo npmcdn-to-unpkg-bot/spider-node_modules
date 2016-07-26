@@ -1,0 +1,12 @@
+{
+  "name": "<%= appname %>",
+  "version": "0.0.1",
+  "description": "<%= appDesc %>",
+  "main": "",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsdoc": "^0.1.5",
+    "gulp-webserver": "^0.9.1",
+    "jaguarjs-jsdoc": "0.0.1"
+  }
+}

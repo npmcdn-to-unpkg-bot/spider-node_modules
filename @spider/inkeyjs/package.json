@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "@spider/inkeyjs",
+      "C:\\Users\\xufei\\Desktop\\cnpm"
+    ]
+  ],
+  "_cnpm_publish_time": 1458575933728,
+  "_from": "@spider/inkeyjs@latest",
+  "_id": "@spider/inkeyjs@2.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@spider/inkeyjs",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "294828098@qq.com",
+    "name": "admin"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "name": "@spider/inkeyjs",
+    "raw": "@spider/inkeyjs",
+    "rawSpec": "",
+    "scope": "@spider",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.16.0.202:7001/@spider/inkeyjs/download/@spider/inkeyjs-2.0.4.tgz",
+  "_shasum": "1b0223827665c416bd9c4c44288949d6b783f28f",
+  "_shrinkwrap": null,
+  "_spec": "@spider/inkeyjs",
+  "_where": "C:\\Users\\xufei\\Desktop\\cnpm",
+  "author": {
+    "name": "gaopan"
+  },
+  "dependencies": {
+    "@spider/mod": "0.0.1"
+  },
+  "description": "秒赚基础库",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsdoc": "^0.1.5",
+    "gulp-webserver": "^0.9.1",
+    "jaguarjs-jsdoc": "0.0.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dist": {
+    "key": "/@spider/inkeyjs/-/@spider/inkeyjs-2.0.4.tgz",
+    "shasum": "1b0223827665c416bd9c4c44288949d6b783f28f",
+    "size": 13597,
+    "tarball": "http://172.16.0.202:7001/@spider/inkeyjs/download/@spider/inkeyjs-2.0.4.tgz"
+  },
+  "gitHead": "031b982697aaeb2322df2636f7100e8518906a47",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "maintainers": [
+    {
+      "email": "294828098@qq.com",
+      "name": "admin"
+    }
+  ],
+  "name": "@spider/inkeyjs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.4"
+}

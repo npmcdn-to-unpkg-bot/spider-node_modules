@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>example</title>
+</head>
+<body ng-controller="IndexCtrl">
+
+<script type="text/javascript" src="/node_modules/@spider/mod/mod.js"></script><!--ignore-->
+<script type="text/javascript">
+  var index = require('/lib/index');
+
+  angular
+  .module('app', ['ik.ngAPI'])
+  .config(['ikngAPIProvider', function(ikngAPIProvider){
+    ikngAPIProvider.config({
+      host: 'http://baidu.com'
+    });
+  }])
+  .controller('IndexCtrl', ['ikngAPI', function(ikngAPI){
+    var s = ikngAPI('AAAAAA');
+
+    console.log(s);
+    s.get();
+  }]);
+</script>
+</body>
+</html>

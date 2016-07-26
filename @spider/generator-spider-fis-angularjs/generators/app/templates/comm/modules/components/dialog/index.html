@@ -1,0 +1,19 @@
+<div class="ik-dialog">
+  <div class="bgk"></div>
+  <div class="container">
+    <div class="close"
+         ng-click="opts.closeFunc()"></div>
+    <div class="ui-flex ui-flex-ver ui-flex-pack-center ui-flex-align-center desc">
+
+      <div class="title "
+          ng-bind-html="opts.desc">
+
+      </div>
+
+      <button class="ui-btn-lg ui-btn-red no-border ui-flex ui-flex-pack-center"
+              ng-bind="opts.btnName"
+              ng-click="opts.btnFunc()"></button>
+    </div>
+
+  </div>
+</div>

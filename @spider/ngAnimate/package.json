@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "@spider/ngAnimate",
+      "C:\\Users\\xufei\\Desktop\\cnpm"
+    ]
+  ],
+  "_cnpm_publish_time": 1458067508520,
+  "_from": "@spider/ngAnimate@latest",
+  "_id": "@spider/ngAnimate@1.3.16",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@spider/ngAnimate",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "294828098@qq.com",
+    "name": "admin"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "name": "@spider/ngAnimate",
+    "raw": "@spider/ngAnimate",
+    "rawSpec": "",
+    "scope": "@spider",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.16.0.202:7001/@spider/ngAnimate/download/@spider/ngAnimate-1.3.16.tgz",
+  "_shasum": "4e430528329504257cce63d264909ea98345fdda",
+  "_shrinkwrap": null,
+  "_spec": "@spider/ngAnimate",
+  "_where": "C:\\Users\\xufei\\Desktop\\cnpm",
+  "dependencies": {},
+  "description": "angular 动画库",
+  "devDependencies": {},
+  "dist": {
+    "key": "/@spider/ngAnimate/-/@spider/ngAnimate-1.3.16.tgz",
+    "shasum": "4e430528329504257cce63d264909ea98345fdda",
+    "size": 111966,
+    "tarball": "http://172.16.0.202:7001/@spider/ngAnimate/download/@spider/ngAnimate-1.3.16.tgz"
+  },
+  "gitHead": "2dca08de5f884bbf63da13c8c413da60428ab410",
+  "main": "js/angular-animate.min.js",
+  "maintainers": [
+    {
+      "email": "294828098@qq.com",
+      "name": "admin"
+    }
+  ],
+  "name": "@spider/ngAnimate",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "1.3.16"
+}

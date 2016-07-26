@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "@spider/sui-picker",
+      "C:\\Users\\xufei\\Desktop\\cnpm"
+    ]
+  ],
+  "_cnpm_publish_time": 1462547835734,
+  "_from": "@spider/sui-picker@latest",
+  "_id": "@spider/sui-picker@0.6.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@spider/sui-picker",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "294828098@qq.com",
+    "name": "admin"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "name": "@spider/sui-picker",
+    "raw": "@spider/sui-picker",
+    "rawSpec": "",
+    "scope": "@spider",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.16.0.202:7001/@spider/sui-picker/download/@spider/sui-picker-0.6.2.tgz",
+  "_shasum": "35c66e57eac17d25ebc4242557ad6b0afd7fbaa5",
+  "_shrinkwrap": null,
+  "_spec": "@spider/sui-picker",
+  "_where": "C:\\Users\\xufei\\Desktop\\cnpm",
+  "dependencies": {},
+  "description": "sui-picker === sui-mobile 下的 picker",
+  "devDependencies": {},
+  "dist": {
+    "key": "/@spider/sui-picker/-/@spider/sui-picker-0.6.2.tgz",
+    "shasum": "35c66e57eac17d25ebc4242557ad6b0afd7fbaa5",
+    "size": 13415,
+    "tarball": "http://172.16.0.202:7001/@spider/sui-picker/download/@spider/sui-picker-0.6.2.tgz"
+  },
+  "main": "./picker.js",
+  "maintainers": [
+    {
+      "email": "294828098@qq.com",
+      "name": "admin"
+    }
+  ],
+  "name": "@spider/sui-picker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "0.6.2"
+}

@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      "@spider/ikngAliImg",
+      "C:\\Users\\xufei\\Desktop\\cnpm"
+    ]
+  ],
+  "_cnpm_publish_time": 1464866892295,
+  "_from": "@spider/ikngAliImg@latest",
+  "_id": "@spider/ikngAliImg@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@spider/ikngAliImg",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "email": "294828098@qq.com",
+    "name": "admin"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "name": "@spider/ikngAliImg",
+    "raw": "@spider/ikngAliImg",
+    "rawSpec": "",
+    "scope": "@spider",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.16.0.202:7001/@spider/ikngAliImg/download/@spider/ikngAliImg-0.0.2.tgz",
+  "_shasum": "2ab448af68a6849978a4c0f530ee9c6a9fa4818c",
+  "_shrinkwrap": null,
+  "_spec": "@spider/ikngAliImg",
+  "_where": "C:\\Users\\xufei\\Desktop\\cnpm",
+  "author": {
+    "name": "xufei"
+  },
+  "dependencies": {
+    "@spider/angular-lazy-img": "1.2.0",
+    "@spider/mod": "0.0.1",
+    "underscore": "^1.8.3"
+  },
+  "description": "阿里云图片处理服务",
+  "devDependencies": {
+    "angular-mocks": "^1.3.15",
+    "browserify": "^13.0.0",
+    "browserify-istanbul": "^2.0.0",
+    "buffer": "^4.5.0",
+    "is-buffer": "^1.1.3",
+    "istanbul": "^0.4.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.8",
+    "karma-jasmine-matchers": "^2.0.2",
+    "karma-nyan-reporter": "^0.2.4",
+    "process": "^0.11.2",
+    "watchify": "^3.7.0"
+  },
+  "dist": {
+    "key": "/@spider/ikngAliImg/-/@spider/ikngAliImg-0.0.2.tgz",
+    "shasum": "2ab448af68a6849978a4c0f530ee9c6a9fa4818c",
+    "size": 5629,
+    "tarball": "http://172.16.0.202:7001/@spider/ikngAliImg/download/@spider/ikngAliImg-0.0.2.tgz"
+  },
+  "gitHead": "699460a7b37326c7848bde47f172e2235e5075ab",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "email": "294828098@qq.com",
+      "name": "admin"
+    }
+  ],
+  "name": "@spider/ikngAliImg",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "karma start karma.config.js"
+  },
+  "version": "0.0.2"
+}

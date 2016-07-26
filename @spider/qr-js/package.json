@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "@spider/qr-js",
+      "C:\\Users\\xufei\\Desktop\\cnpm"
+    ]
+  ],
+  "_cnpm_publish_time": 1462543468623,
+  "_from": "@spider/qr-js@latest",
+  "_id": "@spider/qr-js@1.1.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@spider/qr-js",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "294828098@qq.com",
+    "name": "admin"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "name": "@spider/qr-js",
+    "raw": "@spider/qr-js",
+    "rawSpec": "",
+    "scope": "@spider",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.16.0.202:7001/@spider/qr-js/download/@spider/qr-js-1.1.4.tgz",
+  "_shasum": "8fa39f15716dbbffe19c584fd94b9ae25c3ffc6e",
+  "_shrinkwrap": null,
+  "_spec": "@spider/qr-js",
+  "_where": "C:\\Users\\xufei\\Desktop\\cnpm",
+  "author": {
+    "email": "mercer.alasdair@gmail.com",
+    "name": "Alasdair Mercer",
+    "url": "http://neocotic.com"
+  },
+  "bugs": {
+    "url": "https://github.com/neocotic/qr.js/issues"
+  },
+  "dependencies": {},
+  "description": "Library for QR code generation using canvas",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.10.0",
+    "grunt-docco": "^0.4.0"
+  },
+  "dist": {
+    "key": "/@spider/qr-js/-/@spider/qr-js-1.1.4.tgz",
+    "shasum": "8fa39f15716dbbffe19c584fd94b9ae25c3ffc6e",
+    "size": 14151,
+    "tarball": "http://172.16.0.202:7001/@spider/qr-js/download/@spider/qr-js-1.1.4.tgz"
+  },
+  "homepage": "http://neocotic.com/qr.js",
+  "keywords": [
+    "qr",
+    "code",
+    "encode",
+    "canvas",
+    "image"
+  ],
+  "license": "GPL-3.0",
+  "main": "qr.js",
+  "maintainers": [
+    {
+      "email": "294828098@qq.com",
+      "name": "admin"
+    }
+  ],
+  "name": "@spider/qr-js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neocotic/qr.js.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "1.1.4"
+}

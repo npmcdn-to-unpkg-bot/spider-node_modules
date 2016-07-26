@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>example</title>
+    <style>
+        #rsa, #rsa2aes {
+            border: solid 1px #cccccc;
+            background: #efefef;
+            font-size: 12px;
+            min-height: 100px;
+            padding: 10px;
+            word-wrap: break-word;
+        }
+
+        .red {
+            color: #ff0000;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div id="rsa">登录中...</div>
+<hr/>
+<div id="rsa2aes">登录中...</div>
+<script type="text/javascript" src="/node_modules/@spider/mod/mod.js"></script><!--ignore-->
+<script type="text/javascript">
+    var encrypt = require('/lib/index')();
+    /************************************************************************/
+    var pdata1 = encrypt.RSAEncrypt({
+        UserAccount: '13990005936',
+        Password: '123456'
+    });
+    $.ajax({
+        type: 'POST',
+        url: 'http://192.168.0.201:8321/api/Auth/Login',
+        contentType: 'application/jsonet',
+        data: pdata1.data,
+        success: function (data, state, request) {
+            $('#rsa').addClass('blue').html('成功<br/>' + request.responseText);
+
+        }, error: function (data) {
+            $('#rsa').addClass('red').html('错误<br/>' + data.responseText);
+        }
+    });
+    /************************************************************************/
+    //RSA加密AES解密结果
+    var pdata2 = encrypt.RSA2AESEncrypt({
+        UserAccount: '13990005936',
+        Password: '123456'
+    });
+    $.ajax({
+        type: 'POST',
+        url: 'http://192.168.0.201:8321/api/Auth/Login',
+        accepts: {
+            jsonet: "application/jsonet"
+        },
+        dataType: "jsonet",
+        contentType: 'application/jsonet',
+        data: pdata2.data,
+        success: function (data, state, request) {
+            $('#rsa2aes').addClass('blue').html('成功<br/>' + encrypt.AESDecrypt(request.responseText, pdata2.key, pdata2.iv));
+
+        }, error: function (data) {
+            $('#rsa2aes').addClass('red').html('错误<br/>' + data.responseText);
+        }
+    });
+    /************************************************************************/
+</script>
+</body>
+</html>

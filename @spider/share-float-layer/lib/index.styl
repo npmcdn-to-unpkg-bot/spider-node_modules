@@ -1,0 +1,174 @@
+box()
+  display:-webkit-box
+  display:-moz-box
+  display:-ms-flexbox
+  display: -ms-flex
+  display: -webkit-flex
+  display: flex
+box-align()
+  -webkit-box-pack: center
+  -moz-box-pack: center
+  -ms-flex-pack: center
+  -webkit-justify-content: center
+  justify-content: center
+pack-center()
+  -webkit-box-align: center
+  -moz-box-align: center
+  -ms-flex-align: center
+  -webkit-align-items: center
+  align-items: center
+.ui-share-block
+  z-index:9999999999999999
+  &.web
+    height:65px
+    .wx-web
+      display:block
+  &.follow
+    height:65px
+    .wx-follw
+      display:block
+  &.unfollow
+    height:115px
+    .wx-no-follow
+      display:block
+  position:relative
+  li
+    list-style: none;
+    display: list-item;
+  .ui-share-flex
+    box()
+    width: 100%;
+    -webkit-box-sizing: border-box
+  .ui-share-flex-align-center
+    box-align()
+  .ui-share-flex-pack-center
+    pack-center()
+  .ui-share-row
+    display: block
+    overflow: hidden
+  .ui-share-col
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%
+    padding:0 5px;
+    text-align: center;
+  .ui-share-col-34
+    width:34%
+  .ui-share-col-50
+    width:50%
+  .ui-share-col-66
+    width:66%
+  .ui-share-col-45
+    width:45%
+  .ui-share-col-55
+    width:55%
+  .ui-share-whitespace
+    padding-left:5px;
+    padding-right: 5px
+  .div-share-main
+    position:fixed
+    bottom:0
+    left:0
+    width:100%
+    background rgba(0, 0, 0, .7)
+  .wx-web
+    display:none
+    height:65px
+    li
+      text-align:center
+      font-size:16px
+      div
+        -webkit-border-radius: 5px
+        -moz-border-radius:5px
+        border-radius: 5px
+        height:38px
+        overflow: hidden
+        box()
+        pack-center()
+        span
+          display:inline-block
+          margin-left:5px
+      &:first-child
+        border-right:solid 1px #fff
+        div
+          font-size:13px
+          height: 38px
+          text-align:left
+          img
+            height: 100%
+            margin:0
+          span
+            box()
+            pack-center()
+            text-align:left
+            flex:10
+      &:last-child
+        div
+          background:#dd0c44
+          color:#fff
+          box-align()
+  .wx-follw
+    display:none
+    height:65px
+    li
+      text-align:center
+      font-size:16px
+      div
+        -webkit-border-radius: 5px
+        -moz-border-radius:5px
+        border-radius: 5px
+        height:38px
+        box()
+        box-align()
+        pack-center()
+        img
+          display:inline-block
+          height:50%
+        span
+          display:inline-block
+          margin-left:5px
+      &:first-child
+        border-right:solid 1px #fff
+        div
+          background:#dd0c44
+      &:last-child
+        div
+          background:#fff
+          color:#dd0c44
+  .wx-no-follow
+    display:none
+    height:115px
+    color:#fff
+    img
+      width:85px
+      display:inline-block
+      float:left
+    li
+      height: 85px
+    li:first-child
+      border-right:solid 1px #ffffff
+    li:last-child
+      text-align:left
+      line-height:85px
+      p
+        line-height:20px !important
+        padding:10px 0px 10px 90px
+        font-size: 13px
+    .mzLogo
+      height: 45px
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+      border-radius: 5px
+      background:#fff url(./imgs/mzLogo.png) no-repeat center center;
+      background-size:auto 55%
+      margin-bottom:5px
+    .mzDown
+      height:35px
+      line-height:@height
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+      border-radius: 5px
+      background: #ff0000
+      color:#fff
+      font-size:18px

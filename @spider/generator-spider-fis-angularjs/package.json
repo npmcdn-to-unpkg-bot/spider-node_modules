@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "@spider/generator-spider-fis-angularjs",
+      "C:\\Users\\xufei\\Desktop\\cnpm"
+    ]
+  ],
+  "_cnpm_publish_time": 1456323327348,
+  "_from": "@spider/generator-spider-fis-angularjs@latest",
+  "_id": "@spider/generator-spider-fis-angularjs@0.0.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@spider/generator-spider-fis-angularjs",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "294828098@qq.com",
+    "name": "admin"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_publish_on_cnpm": true,
+  "_requested": {
+    "name": "@spider/generator-spider-fis-angularjs",
+    "raw": "@spider/generator-spider-fis-angularjs",
+    "rawSpec": "",
+    "scope": "@spider",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.16.0.202:7001/@spider/generator-spider-fis-angularjs/download/@spider/generator-spider-fis-angularjs-0.0.6.tgz",
+  "_shasum": "b1f8c1b240feb210829586855ea67217e011b7a5",
+  "_shrinkwrap": null,
+  "_spec": "@spider/generator-spider-fis-angularjs",
+  "_where": "C:\\Users\\xufei\\Desktop\\cnpm",
+  "author": {
+    "email": "gaopan@inkey.com",
+    "name": "gaopan"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "html-wiring": "^1.2.0",
+    "lodash": "^3.10.1",
+    "mkdirp": "^0.5.1",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "description": "基于yeoman,fis,angularjs的快速开发模板",
+  "devDependencies": {},
+  "dist": {
+    "key": "/@spider/generator-spider-fis-angularjs/-/@spider/generator-spider-fis-angularjs-0.0.6.tgz",
+    "shasum": "b1f8c1b240feb210829586855ea67217e011b7a5",
+    "size": 437082,
+    "tarball": "http://172.16.0.202:7001/@spider/generator-spider-fis-angularjs/download/@spider/generator-spider-fis-angularjs-0.0.6.tgz"
+  },
+  "gitHead": "434a371cd763997198ed0aa696d05ad5e6c9ff6d",
+  "keywords": [
+    "yeoman-generator",
+    "fis",
+    "angularjs",
+    "spider",
+    "template"
+  ],
+  "main": "generators/app/index.js",
+  "maintainers": [
+    {
+      "email": "294828098@qq.com",
+      "name": "admin"
+    }
+  ],
+  "name": "@spider/generator-spider-fis-angularjs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "0.0.6"
+}
